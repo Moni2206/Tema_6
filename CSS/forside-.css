@@ -1,0 +1,125 @@
+.Forside {
+  width: 350px;
+  height: 350px;
+  padding-left: 9rem;
+  padding-bottom: 2rem;
+}
+main {
+  margin: 2rem;
+}
+/* Den føst grid */
+.grid_1 {
+  display: grid;
+  grid-template-rows: 1fr 131px 1fr;
+  grid-template-columns: 106px 1fr;
+}
+
+.mig {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  grid-column: 2;
+}
+.text_1 {
+  grid-row: 2;
+  grid-column: 1/4;
+}
+
+.grid_cta {
+  grid-row: 3/4;
+}
+.grid_cta {
+  display: grid;
+  grid-template-columns: 156px;
+  padding-bottom: 3rem;
+}
+.cta {
+  grid-column: 2;
+  border-style: none;
+  background-color: #b3d5db;
+  width: 100px;
+  height: 50px;
+  list-style: none;
+  text-decoration: none;
+}
+
+.cta {
+  display: flex;
+  justify-content: center; /* centrer vandret */
+  align-items: center;
+}
+
+/* Den to grid */
+.grid_2 {
+  display: grid;
+  grid-template-rows: 1fr 131px;
+  grid-template-columns: 106px 1fr;
+}
+.mig_2 {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  grid-column: 2;
+}
+
+@media (width >=800px) {
+  .Forside {
+    padding-left: 20rem;
+    width: 600px;
+    height: 600px;
+  }
+  .grid_1 {
+    display: grid;
+    grid-template-rows: 53px 168px 219px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+
+  .mig {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    grid-column: 1;
+  }
+  .text_1 {
+    grid-row: 2/3;
+    grid-column: 3/6;
+    padding-right: 6rem;
+  }
+  .grid_cta {
+    grid-row: 3/4;
+    grid-column: 4/5;
+  }
+
+  .grid_cta {
+    display: grid;
+    grid-template-columns: 1px;
+  }
+  .cta {
+    grid-column: 2;
+    border-style: none;
+    background-color: #b3d5db;
+    width: 100px;
+    height: 50px;
+    list-style: none;
+    text-decoration: none;
+  }
+  .cta {
+    display: flex;
+    justify-content: center; /* centrer vandret */
+    align-items: center;
+  }
+
+  /* Den to grid */
+  .grid_2 {
+    display: grid;
+    grid-template-rows: 53px 168px 219px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    padding-top: 2rem;
+  }
+  .mig_2 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    grid-column: 1;
+  }
+}
