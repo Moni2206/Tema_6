@@ -1,0 +1,47 @@
+/*:root {
+  --background-color: #545d60;
+  --text-color: #290666;
+  --link-color: #43d7f8;
+  --border-color: rgb(57, 171, 44);
+}
+
+/* ===== DARK & LIGHT THEMES ===== */
+body.light-mode {
+  background-color: #fff;
+  color: #000;
+}
+
+.menu_d {
+  color: #c4c7f2;
+}
+
+body.dark-mode {
+  background-color: #000135;
+  color: #c4c7f2;
+}
+body.dark-mode header {
+  border-bottom: 1px solid white; /* eller en lysere farve */
+}
+
+/* Dark mode footer */
+.dark-mode .footer_dark {
+  background-color: #000000;
+  color: #ddd;
+}
+
+.dark-mode .cta_drak {
+  color: #000;
+}
+.content-box {
+  background-color: #f0f0f0;
+  color: #1a1a1a;
+  padding: 1.5rem;
+  border-radius: 10px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* DARK MODE (når body får class="dark-mode") */
+body.dark-mode .content-box {
+  background-color: #1c1c3a;
+  color: #c4c7f2;
+}

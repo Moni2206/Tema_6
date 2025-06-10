@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="da">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="CSS/tema_2.css" />
+    <link rel="stylesheet" href="CSS/alle.css" />
+    <link rel="stylesheet" href="CSS/dark.css" />
+    <link rel="stylesheet" href="CSS/light.css" />
+    <link rel="stylesheet" href="CSS/mode.css" />
+    <title>Tema 2</title>
+    <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/png" href="img/favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="img/favicon/favicon.svg" />
+    <link rel="shortcut icon" href="img/favicon/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png" />
+    <link rel="manifest" href="img/favicon/site.webmanifest" />
+  </head>
+  <body>
+    <header>
+      <div class="header-container">
+        <a href="index.html">
+          <img class="logo" src="img/fjel.png" alt="logo billede" />
+        </a>
+      </div>
+      <nav>
+        <ul class="menu">
+          <li class="mit">
+            <a class="menu_d" href="om_mig.html"><h4>Om mig</h4></a>
+          </li>
+          <li class="mit">
+            <a class="menu_d" href="tema.html"><h4>Tema</h4></a>
+          </li>
+          <li>
+            <legend id="switchtext3">Dark mode</legend>
+            <label class="switch">
+              <input id="darkToggle" type="checkbox" />
+              <span class="slider round"></span>
+            </label>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="grid-layout">
+      <section class="content">
+        <div class="tekst">
+          <h1>Tema 2 - Grundlæggende Webudvikling</h1>
+          <h2>Løsning</h2>
+          <p>
+            I Tema 2 har jeg haft fokus på at bygge en komplet hjemmeside med tilhørende undersider ved hjælp af HTML og CSS. Målet var at forstå, hvordan en hjemmeside bliver opbygget og stylet fra struktur til layout og visuelle detaljer. Til
+            forskel fra senere temaer var indholdet ikke i fokus - her det handlede i stedet om at lære at kode og sætte ting op teknisk korrekt. En vigtig del af forløbet handlede også om Mobile-first-design, altså at man først designer og koder til
+            mobilskærme og derefter udvider til større enheder. Det giver bedre performance, mere brugervenlighed og et fleksibelt layout, der skalerer med media queries.
+          </p>
+        </div>
+
+        <div class="billede">
+          <img id="T2" src="img/Tema_2.png" alt="" />
+        </div>
+        <h2 class="Proces">Proces</h2>
+        <div class="tekst tekstboks content-box">
+          <h4>Forberedelse</h4>
+          <p>
+            Jeg startede med at gennemgå det materiale, vi fik udleveret: tekster og billeder til alle sider, et færdigt layout og wireframe samt retningslinjer for struktur. Materialet gav mig et solidt overblik over, hvordan jeg skulle gribe
+            opgaven an.
+          </p>
+        </div>
+
+        <div class="tekst tekstboks content-box">
+          <h4>HTML - Struktur og opbygning</h4>
+          <p>Jeg oprettede en HTML-fil for hver underside (fx index.html, komponenter.html osv.). Her brugte jeg en klar struktur:</p>
+        </div>
+        <div class="billede kode">
+          <img src="img/kode_tema2.png" alt="" />
+        </div>
+
+        <div class="tekst tekstboks content-box">
+          <h4>CSS - Styling og layout</h4>
+          <p>
+            Jeg forbandt HTML'en med en ekstern CSS-fil og begyndte at style layout og elementer: farver, skrifttyper og baggrunde, brug af border-radius og box-shadow for bløde, moderne knapper, layout med display: grid og flexbox for fleksibilitet
+            og struktur og media queries til responsivt design mobil først. Derefter påbegyndte jeg arbejdet med tilpasning til tablets og desktops
+          </p>
+          <h4>Test og fejlretning</h4>
+          <p>
+            Undervejs anvendte jeg browserens udviklingsværktøjer (f.eks. "Inspicer element") til at: tjekke og tilpasse afstande, størrelser og farver, finde og rette fejl i koden og sikre, at siden fungerer i forskellige browsere og på forskellige
+            skærme.
+          </p>
+        </div>
+        <div class="tekst tekstboks content-box">
+          <h4>Mappestruktur</h4>
+          <p>
+            Min mappestruktur kunne have været mere organiseret, og eksempler på problemer var bl.a., at HTML- og CSS-filer lå blandet i roden, og at nogle billeder var i en imgs/-mappe, mens andre lå løst. CSS-filerne havde forskellige navngivninger
+            - fx min_computer.css vs. mobilsitet.css, og skrifttyper og kodefiler lå i samme mappe
+          </p>
+
+          <h4>Hvad jeg har lært:</h4>
+          <p>
+            En logisk og konsistent mappestruktur gør hele arbejdet mere overskueligt og professionelt. Det bliver nemmere for både mig og andre at finde rundt i filernem hvis strukturen er på plads. Struktur er især vigtigt, når projekter vokser, og
+            hvis jeg skulle starte forfra, ville jeg:
+          </p>
+          <p>📁 /projekt ├── html/ │ └── index.html, komponenter.html ... ├── css/ │ └── styles.css, layout.css ... ├── imgs/ │ └── alle billeder └── fonts/ └── skrifttyper</p>
+        </div>
+
+        <div class="billede mappe"><img src="img/mappe.png" alt="" /></div>
+        <div class="tekst bygge tekstboks content-box">
+          <h2>Læring</h2>
+          <p>
+            Dette tema var mit første møde med rigtig webudvikling, og jeg lærte en masse praktiske ting: Hvordan man opbygger en hjemmeside helt fra bunden At koble HTML og CSS sammen og skabe layout og stil At arbejde med billeder, links og tekst i
+            kode Betydningen af mobile-first og medieopdelinger Hvor vigtigt det er med struktur i mapper og filer Temaet har givet mig et godt fundament, som jeg kan bygge videre på i kommende projekter – både teknisk og i forhold til
+            arbejdsstruktur.
+          </p>
+        </div>
+        <a class="tema_a" href="tema.html"><h4>Tilbage</h4></a>
+        <div>
+          <p>Den første hjemmeside</p>
+          <a class="tame_5 cta_drak" href="https://angelspaint.dk/"><h4>Studiestartsprøve</h4></a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer footer_dark">
+      <nav class="footer-container">
+        <ul class="footer-section1">
+          <li><h4>Studietid</h4></li>
+          <li><p>Mandag - Fredag: 8:30 - 16:00</p></li>
+        </ul>
+        <ul class="footer-section">
+          <li><h4>Arbejdstid</h4></li>
+          <li><p>Fredag: 04:30 - 11:00</p></li>
+          <li><p>Hver anden lørdag: 05:00 - 12:00</p></li>
+        </ul>
+        <ul class="footer-section">
+          <li><h4>KONTAKT</h4></li>
+          <li><p>moha009@stud.kea.dk</p></li>
+        </ul>
+      </nav>
+    </footer>
+    <script src="js/dark.js"></script>
+  </body>
+</html>

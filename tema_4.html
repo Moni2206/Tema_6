@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="da">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="CSS/tema_2.css" />
+    <link rel="stylesheet" href="CSS/alle.css" />
+    <link rel="stylesheet" href="CSS/dark.css" />
+    <link rel="stylesheet" href="CSS/light.css" />
+    <link rel="stylesheet" href="CSS/mode.css" />
+
+    <title>Tema 4</title>
+    <link rel="icon" type="image/png" href="img/favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="img/favicon/favicon.svg" />
+    <link rel="shortcut icon" href="img/favicon/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png" />
+    <link rel="manifest" href="img/favicon/site.webmanifest" />
+  </head>
+  <body>
+    <header>
+      <div class="header-container">
+        <a href="index.html">
+          <img class="logo" src="img/fjel.png" alt="logo billede" />
+        </a>
+      </div>
+      <nav>
+        <ul class="menu">
+          <li class="mit">
+            <a class="menu_d" href="om_mig.html"><h4>Om mig</h4></a>
+          </li>
+          <li class="mit">
+            <a class="menu_d" href="tema.html"><h4>Tema</h4></a>
+          </li>
+          <li>
+            <legend id="switchtext3">Dark mode</legend>
+            <label class="switch">
+              <input id="darkToggle" type="checkbox" />
+              <span class="slider round"></span>
+            </label>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="grid-layout">
+      <section class="content">
+        <div class="tekst t4_">
+          <h1>Tema 4 - Grundlæggende animation</h1>
+
+          <h2>Løsning</h2>
+          <p>
+            I Tema 4 arbejdede jeg med animation og interaktivitet ud fra overskriften “EMERGENCY”. Opgaven gik ud på at forestille sig et møde med en alien og hvordan man kunne overleve det. Mit kreative bud blev et interaktivt og visuelt stærkt
+            website, hvor brugeren får mulighed for at lære om aliens svagheder gennem klik og animation. Som en del af løsningen arbejdede jeg med både Adobe Illustrator til design og digitalisering samt JavaScript til at skabe liv og responsivitet
+            på websiden. Animation og interaktivitet. Gennem projektet har jeg undersøgt, hvordan bevægelse og brugerhandlinger kan understøtte fortælling og læring især i forhold til målgrupper som børn og unge.
+          </p>
+        </div>
+
+        <h2 class="Proces t4">Proces</h2>
+        <div class="tekst te3 tekstboks content-box">
+          <h4>Skitsering og karakterdesign</h4>
+          <p>
+            Jeg begyndte med håndtegnede skitser for at eksperimentere med former, proportioner og personlighed. Jeg testede både klassiske alien-stilarter og mere cartoon-inspirerede figurer. Målet var at finde en balance mellem det genkendelige og
+            det originale og gøre karaktererne indbydende, men stadig lidt farlige.
+          </p>
+        </div>
+
+        <div class="tekst tekstboks content-box">
+          <h4>Form: Blødt vs. Hårdt</h4>
+          <p>
+            I designet valgte jeg at arbejde med bløde, runde former for at signalere venlighed og tilgængelighed. Det passer godt til en yngre målgruppe. Samtidig tilføjede jeg enkelte skarpe elementer som spidse tænder og trekantede øjne for at
+            give karaktererne kant og dynamik.
+          </p>
+        </div>
+        <div class="billede">
+          <img id="T4" src="img/Tema_4_teg.png" alt="" />
+        </div>
+        <div class="tekst tekstboks content-box">
+          <h4>Farver: Lys vs. Mørk</h4>
+          <p>Farvevalget var vigtigt for stemningen:</p>
+          <p>
+            Karakterer: Klare, lysende farver som blå, grøn og cyan skaber energi og kontrast. Baggrund og UI: Jeg udviklede både en lys og en mørk version. “Dark Mode” giver et moderne, digitalt udtryk og gør de farverige karakterer mere
+            fremtrædende.
+          </p>
+
+          <h4>Digitalisering og logo</h4>
+          <p>
+            Undervejs brugte jeg browserens udviklingsværktøjer (f.eks. "Inspicer element") til at: Tjekke og tilpasse afstande, størrelser og farver Finde og rette fejl i koden Sikre at siden fungerer i forskellige browsere og på forskellige skærme
+          </p>
+        </div>
+        <div class="tekst tekstboks content-box">
+          <h4>Figma - Designværktøjet i praksis</h4>
+          <p>
+            Med Adobe Illustrator digitaliserede jeg mine figurer og tilføjede detaljer, farver og skygger. Jeg designede også logoet “Earth’s Defenders” med en eventyrlig typografi og et grafisk “ED”-ikon. Logoet er med til at styrke identiteten og
+            samarbejde og kamp mod det ukendte.
+          </p>
+
+          <h4>JavaScript - Interaktivitet og funktionalitet</h4>
+          <p>
+            JavaScript spiller en central rolle i projektet. Jeg brugte det til at give liv til alien-figuren og skabe interaktive funktioner, der aktiveres, når brugeren bevæger musen hen over eller klikker på forskellige kropsdele. Ved hjælp af
+            addEventListener implementerede jeg visuel feedback via farveskift ved mouseover og en dynamisk opdateret tekst med strategi-information ved click Jeg arbejdede med DOM-manipulation gennem querySelector og innerHTML for at ændre indholdet
+            direkte i brugerfladen uden at genindlæse siden. Koden er struktureret i genanvendelige funktioner, hvilket gør det let at udvide og vedligeholde. Projektet har styrket mine kompetencer inden for event handling, DOM-opbygning og
+            brugerinteraktion med JavaScript.
+          </p>
+        </div>
+        <div class="billede t4_js"><img src="img/Tema_4js.png" alt="" /> <img src="img/tema4_kode.png" alt="" /></div>
+
+        <h2 class="t4-l">Læring</h2>
+        <div class="tekst bygge tekstboks content-box">
+          <p>Jeg har lært:</p>
+          <p>
+            at kombinere design, animation og programmering til en samlet oplevelse, hvordan JavaScript kan bruges til at gøre en statisk illustration levende og lærerig og at bruge Adobe Illustrator til at digitalisere og raffinere karakterdesigns.
+            Jeg er blevet bedre til: DOM-manipulation og eventbaseret JavaScript, at skabe balancerede og tilgængelige visuelle udtryk og at tænke i målgrupper og tilpasse design og funktionalitet herefter. Jeg vil gerne arbejde videre med: flere
+            former for interaktiv animation, avanceret JavaScript og måske bruge frameworks som react og at udvikle og læringsoplevelser, der engagerer brugeren gennem design og teknologi
+          </p>
+        </div>
+        <a class="tema_a cta_drak" href="tema.html"><h4>Tilbage</h4></a>
+        <div>
+          <p>Hjemmeside for ED</p>
+          <a class="tame_4 tame_5 cta_drak" href="https://angelspaint.dk/website_4/emergency-main%20/index.html"><h4>Earth’s Defenders</h4></a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer footer_dark">
+      <nav class="footer-container">
+        <ul class="footer-section1">
+          <li><h4>Studietid</h4></li>
+          <li><p>Mandag - Fredag: 8:30 - 16:00</p></li>
+        </ul>
+        <ul class="footer-section">
+          <li><h4>Arbejdstid</h4></li>
+          <li><p>Fredag: 04:30 - 11:00</p></li>
+          <li><p>Hver anden lørdag: 05:00 - 12:00</p></li>
+        </ul>
+        <ul class="footer-section">
+          <li><h4>KONTAKT</h4></li>
+          <li><p>moha009@stud.kea.dk</p></li>
+        </ul>
+      </nav>
+    </footer>
+    <script src="js/dark.js"></script>
+  </body>
+</html>
