@@ -193,4 +193,8 @@ main {
     height: 300px;
     width: 400px;
   }
+  .Monika {
+    padding-left: 8rem;
+    padding-right: 8rem;
+  }
 }
